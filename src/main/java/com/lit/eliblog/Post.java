@@ -16,13 +16,17 @@ public class Post {
 	private String body;
 	private Date date;
 
+	Post(){
+		
+	}
+	
 	Post(String title, String body) {
 		this.setTitle(title);
 		this.setBody(body);
 
 	}
 
-	String getTitle() {
+	public String getTitle() {
 		return title;
 	}
 
@@ -30,7 +34,7 @@ public class Post {
 		this.title = title;
 	}
 
-	String getBody() {
+	public String getBody() {
 		return body;
 	}
 
@@ -46,7 +50,7 @@ public class Post {
 		this.id = id;
 	}
 
-	Date getDate() {
+	public Date getDate() {
 		return date;
 	}
 

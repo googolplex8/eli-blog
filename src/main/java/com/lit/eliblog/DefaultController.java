@@ -9,13 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class DefaultController {
 	
 	@Autowired
-	//DataLoader dl = new DataLoader(postRepo);
+	DataLoader dl;
 	
 	@RequestMapping("/")
 	String returnRoot(Model m) {
-		//m.addAttribute("posts",  );
+		m.addAttribute("text_injection", dl.postReturner() );
 		return "index";
-		
 	}
-
 }

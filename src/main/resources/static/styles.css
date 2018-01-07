@@ -1,0 +1,33 @@
+h1 {
+  color: rgb(25,220,71);
+  background: rgb(55,25,180);
+  border-radius: 0.75em;
+  padding: 10px;
+  text-align: center;
+}
+.post{
+  background: rgb(0,128,255);
+  padding: 5px;
+  border-radius: 0.75em;
+  width: 75%;
+  margin: 10px;
+}
+.p1{
+  font-size: 15px;
+}
+.date{
+  background: rgb(0,128,255);
+  margin-top: 0px;
+  font-size: 15px;
+}
+.title{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.p2{
+  background: rgb(102,51,0);
+  color: white;
+  padding: 5px;
+  border-radius: 0.75em;
+}

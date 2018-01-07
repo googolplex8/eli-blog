@@ -30,9 +30,13 @@ public class DataLoader {
     		Post p3 = new Post("Post 3", "and he lived happily ever after");
     		p3.setDate(d);
     		
+    		Post p4 = new Post("Post 4", "until one day!!!");
+    		p4.setDate(d);
+    		
     		postRepo.save(p1);
     		postRepo.save(p2);
     		postRepo.save(p3);
+    		postRepo.save(p4);
     }
     
     public Iterable<Post> postReturner(){

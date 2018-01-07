@@ -10,9 +10,5 @@ public class EliBlogApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(EliBlogApplication.class, args);
 	}
-	
-	@Autowired 
-	DataLoader dl;
-	
-	
+		
 }
